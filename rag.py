@@ -24,7 +24,10 @@ def buscar(pergunta, preco_max=None, tempo_max=None, vegetariano=None, n=5):
     # Primeiro filtra pelas regras, depois ordena por semelhança de significado
     vetor = MODELO.encode([pergunta]).tolist()
     resultado = colecao.query(query_embeddings=vetor, n_results=n, where=filtro)
-    return resultado["metadatas"][0]
+    pratos = []
+    for meta, texto in zip(resultado["metadatas"][0], resultado["documents"][0]):
+        pratos.append({**meta, "descricao": texto})
+    return pratos
 
 
 if __name__ == "__main__":
