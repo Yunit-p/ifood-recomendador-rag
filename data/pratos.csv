@@ -1,0 +1,145 @@
+id,restaurante,categoria,prato,descricao,preco,tempo_entrega_min,vegetariano,nota_restaurante
+1,Sakura Express,Japonesa,Combinado de sushi 20 peças,"Sushis e sashimis de salmão, atum e peixe branco, com gengibre e wasabi",68.53,37,False,4.7
+2,Sakura Express,Japonesa,Temaki de salmão,"Cone de alga recheado com salmão fresco, cream cheese e cebolinha",32.98,37,False,4.7
+3,Sakura Express,Japonesa,Hot roll de salmão,"Oito peças empanadas e fritas, recheadas com salmão e cream cheese",38.1,37,False,4.7
+4,Sakura Express,Japonesa,Yakisoba de legumes,"Macarrão oriental salteado com brócolis, cenoura, repolho e molho shoyu",39.91,37,True,4.7
+5,Sakura Express,Japonesa,Gyoza de carne,Pastéis japoneses grelhados recheados com carne suína e legumes,33.13,37,False,4.7
+6,Sakura Express,Japonesa,Uramaki vegetariano,"Rolinhos com pepino, cenoura e manga, sem peixe",37.69,37,True,4.7
+7,Tokyo Box,Japonesa,Combinado de sushi 20 peças,"Sushis e sashimis de salmão, atum e peixe branco, com gengibre e wasabi",59.44,31,False,4.4
+8,Tokyo Box,Japonesa,Temaki de salmão,"Cone de alga recheado com salmão fresco, cream cheese e cebolinha",27.78,31,False,4.4
+9,Tokyo Box,Japonesa,Hot roll de salmão,"Oito peças empanadas e fritas, recheadas com salmão e cream cheese",32.4,31,False,4.4
+10,Tokyo Box,Japonesa,Yakisoba de legumes,"Macarrão oriental salteado com brócolis, cenoura, repolho e molho shoyu",34.99,31,True,4.4
+11,Tokyo Box,Japonesa,Gyoza de carne,Pastéis japoneses grelhados recheados com carne suína e legumes,30.02,31,False,4.4
+12,Tokyo Box,Japonesa,Uramaki vegetariano,"Rolinhos com pepino, cenoura e manga, sem peixe",30.48,31,True,4.4
+13,Mar & Sushi,Japonesa,Combinado de sushi 20 peças,"Sushis e sashimis de salmão, atum e peixe branco, com gengibre e wasabi",79.17,43,False,4.8
+14,Mar & Sushi,Japonesa,Temaki de salmão,"Cone de alga recheado com salmão fresco, cream cheese e cebolinha",35.7,43,False,4.8
+15,Mar & Sushi,Japonesa,Hot roll de salmão,"Oito peças empanadas e fritas, recheadas com salmão e cream cheese",42.16,43,False,4.8
+16,Mar & Sushi,Japonesa,Yakisoba de legumes,"Macarrão oriental salteado com brócolis, cenoura, repolho e molho shoyu",44.77,43,True,4.8
+17,Mar & Sushi,Japonesa,Gyoza de carne,Pastéis japoneses grelhados recheados com carne suína e legumes,36.67,43,False,4.8
+18,Mar & Sushi,Japonesa,Uramaki vegetariano,"Rolinhos com pepino, cenoura e manga, sem peixe",41.48,43,True,4.8
+19,Forno Napoli,Pizza,Pizza margherita,"Molho de tomate, muçarela de búfala, manjericão fresco e azeite",58.95,43,True,4.7
+20,Forno Napoli,Pizza,Pizza calabresa,"Calabresa fatiada, cebola roxa, muçarela e azeitonas",60.58,43,False,4.7
+21,Forno Napoli,Pizza,Pizza quatro queijos,"Muçarela, provolone, gorgonzola e parmesão sobre molho de tomate",62.78,43,True,4.7
+22,Forno Napoli,Pizza,Pizza portuguesa,"Presunto, ovos, cebola, ervilha, azeitonas e muçarela",59.48,43,False,4.7
+23,Forno Napoli,Pizza,Pizza de frango com catupiry,Frango desfiado temperado com catupiry cremoso e milho,63.27,43,False,4.7
+24,Forno Napoli,Pizza,Pizza doce de chocolate com morango,Chocolate ao leite derretido com morangos frescos,51.94,43,True,4.7
+25,Pizzaria Dona Maria,Pizza,Pizza margherita,"Molho de tomate, muçarela de búfala, manjericão fresco e azeite",48.81,32,True,4.3
+26,Pizzaria Dona Maria,Pizza,Pizza calabresa,"Calabresa fatiada, cebola roxa, muçarela e azeitonas",50.58,32,False,4.3
+27,Pizzaria Dona Maria,Pizza,Pizza quatro queijos,"Muçarela, provolone, gorgonzola e parmesão sobre molho de tomate",54.24,32,True,4.3
+28,Pizzaria Dona Maria,Pizza,Pizza portuguesa,"Presunto, ovos, cebola, ervilha, azeitonas e muçarela",51.95,32,False,4.3
+29,Pizzaria Dona Maria,Pizza,Pizza de frango com catupiry,Frango desfiado temperado com catupiry cremoso e milho,49.86,32,False,4.3
+30,Pizzaria Dona Maria,Pizza,Pizza doce de chocolate com morango,Chocolate ao leite derretido com morangos frescos,45.41,32,True,4.3
+31,Massa Fina,Pizza,Pizza margherita,"Molho de tomate, muçarela de búfala, manjericão fresco e azeite",65.35,42,True,4.6
+32,Massa Fina,Pizza,Pizza calabresa,"Calabresa fatiada, cebola roxa, muçarela e azeitonas",64.01,42,False,4.6
+33,Massa Fina,Pizza,Pizza quatro queijos,"Muçarela, provolone, gorgonzola e parmesão sobre molho de tomate",69.96,42,True,4.6
+34,Massa Fina,Pizza,Pizza portuguesa,"Presunto, ovos, cebola, ervilha, azeitonas e muçarela",69.41,42,False,4.6
+35,Massa Fina,Pizza,Pizza de frango com catupiry,Frango desfiado temperado com catupiry cremoso e milho,66.78,42,False,4.6
+36,Massa Fina,Pizza,Pizza doce de chocolate com morango,Chocolate ao leite derretido com morangos frescos,59.68,42,True,4.6
+37,Burger do Zé,Hambúrguer,Cheeseburger clássico,"Hambúrguer bovino de 150g, queijo cheddar, alface, tomate e molho da casa",29.46,26,False,4.4
+38,Burger do Zé,Hambúrguer,Burger bacon duplo,"Dois hambúrgueres de 120g, muito bacon crocante e cheddar derretido",38.18,26,False,4.4
+39,Burger do Zé,Hambúrguer,Burger de frango crocante,"Filé de frango empanado, maionese temperada e picles",28.96,26,False,4.4
+40,Burger do Zé,Hambúrguer,Burger vegetariano de grão-de-bico,"Hambúrguer de grão-de-bico com abobrinha, queijo e rúcula",33.18,26,True,4.4
+41,Burger do Zé,Hambúrguer,Batata frita com cheddar e bacon,Porção grande de batata frita coberta com cheddar e bacon,27.89,26,False,4.4
+42,Burger do Zé,Hambúrguer,Milkshake de chocolate,"Sorvete batido com calda de chocolate e chantilly, 400ml",21.64,26,True,4.4
+43,Smash House,Hambúrguer,Cheeseburger clássico,"Hambúrguer bovino de 150g, queijo cheddar, alface, tomate e molho da casa",33.8,33,False,4.8
+44,Smash House,Hambúrguer,Burger bacon duplo,"Dois hambúrgueres de 120g, muito bacon crocante e cheddar derretido",45.17,33,False,4.8
+45,Smash House,Hambúrguer,Burger de frango crocante,"Filé de frango empanado, maionese temperada e picles",33.45,33,False,4.8
+46,Smash House,Hambúrguer,Burger vegetariano de grão-de-bico,"Hambúrguer de grão-de-bico com abobrinha, queijo e rúcula",36.89,33,True,4.8
+47,Smash House,Hambúrguer,Batata frita com cheddar e bacon,Porção grande de batata frita coberta com cheddar e bacon,30.4,33,False,4.8
+48,Smash House,Hambúrguer,Milkshake de chocolate,"Sorvete batido com calda de chocolate e chantilly, 400ml",23.5,33,True,4.8
+49,Grill Brasa,Hambúrguer,Cheeseburger clássico,"Hambúrguer bovino de 150g, queijo cheddar, alface, tomate e molho da casa",32.65,34,False,4.2
+50,Grill Brasa,Hambúrguer,Burger bacon duplo,"Dois hambúrgueres de 120g, muito bacon crocante e cheddar derretido",42.77,34,False,4.2
+51,Grill Brasa,Hambúrguer,Burger de frango crocante,"Filé de frango empanado, maionese temperada e picles",28.71,34,False,4.2
+52,Grill Brasa,Hambúrguer,Burger vegetariano de grão-de-bico,"Hambúrguer de grão-de-bico com abobrinha, queijo e rúcula",34.46,34,True,4.2
+53,Grill Brasa,Hambúrguer,Batata frita com cheddar e bacon,Porção grande de batata frita coberta com cheddar e bacon,28.1,34,False,4.2
+54,Grill Brasa,Hambúrguer,Milkshake de chocolate,"Sorvete batido com calda de chocolate e chantilly, 400ml",21.44,34,True,4.2
+55,Cozinha da Vovó,Brasileira,Feijoada completa,"Feijão preto com carnes suínas, arroz, couve, farofa e laranja",40.01,30,False,4.6
+56,Cozinha da Vovó,Brasileira,Prato feito de frango grelhado,"Filé de frango grelhado, arroz, feijão, salada e batata frita",26.43,30,False,4.6
+57,Cozinha da Vovó,Brasileira,Strogonoff de carne,"Carne em molho cremoso com champignon, arroz branco e batata palha",31.03,30,False,4.6
+58,Cozinha da Vovó,Brasileira,Moqueca de peixe,"Peixe cozido em leite de coco, dendê e pimentões, com arroz e pirão",47.07,30,False,4.6
+59,Cozinha da Vovó,Brasileira,Virado à paulista,"Bisteca suína, tutu de feijão, couve, ovo frito, banana e arroz",34.83,30,False,4.6
+60,Cozinha da Vovó,Brasileira,Escondidinho de mandioca vegetariano,Purê de mandioca gratinado com recheio de cogumelos e queijo,29.79,30,True,4.6
+61,Marmitaria Sabor Caseiro,Brasileira,Feijoada completa,"Feijão preto com carnes suínas, arroz, couve, farofa e laranja",36.55,23,False,4.3
+62,Marmitaria Sabor Caseiro,Brasileira,Prato feito de frango grelhado,"Filé de frango grelhado, arroz, feijão, salada e batata frita",24.57,23,False,4.3
+63,Marmitaria Sabor Caseiro,Brasileira,Strogonoff de carne,"Carne em molho cremoso com champignon, arroz branco e batata palha",29.78,23,False,4.3
+64,Marmitaria Sabor Caseiro,Brasileira,Moqueca de peixe,"Peixe cozido em leite de coco, dendê e pimentões, com arroz e pirão",43.76,23,False,4.3
+65,Marmitaria Sabor Caseiro,Brasileira,Virado à paulista,"Bisteca suína, tutu de feijão, couve, ovo frito, banana e arroz",30.9,23,False,4.3
+66,Marmitaria Sabor Caseiro,Brasileira,Escondidinho de mandioca vegetariano,Purê de mandioca gratinado com recheio de cogumelos e queijo,28.32,23,True,4.3
+67,Tempero Mineiro,Brasileira,Feijoada completa,"Feijão preto com carnes suínas, arroz, couve, farofa e laranja",46.69,36,False,4.7
+68,Tempero Mineiro,Brasileira,Prato feito de frango grelhado,"Filé de frango grelhado, arroz, feijão, salada e batata frita",27.48,36,False,4.7
+69,Tempero Mineiro,Brasileira,Strogonoff de carne,"Carne em molho cremoso com champignon, arroz branco e batata palha",34.53,36,False,4.7
+70,Tempero Mineiro,Brasileira,Moqueca de peixe,"Peixe cozido em leite de coco, dendê e pimentões, com arroz e pirão",51.46,36,False,4.7
+71,Tempero Mineiro,Brasileira,Virado à paulista,"Bisteca suína, tutu de feijão, couve, ovo frito, banana e arroz",39.58,36,False,4.7
+72,Tempero Mineiro,Brasileira,Escondidinho de mandioca vegetariano,Purê de mandioca gratinado com recheio de cogumelos e queijo,31.87,36,True,4.7
+73,Verde Vivo,Saudável,Salada caesar com frango,"Alface americana, frango grelhado, croutons e parmesão com molho caesar",34.99,24,False,4.6
+74,Verde Vivo,Saudável,Bowl de quinoa com legumes,"Quinoa, grão-de-bico, abacate, tomate cereja e molho de limão",40.57,24,True,4.6
+75,Verde Vivo,Saudável,Wrap integral de frango,"Tortilla integral com frango desfiado, folhas verdes e homus",32.02,24,False,4.6
+76,Verde Vivo,Saudável,Salmão grelhado com legumes,"Filé de salmão com brócolis, cenoura e purê de batata-doce",60.87,24,False,4.6
+77,Verde Vivo,Saudável,Açaí com granola,"Açaí batido com banana, granola e mel, 500ml",28.4,24,True,4.6
+78,Verde Vivo,Saudável,Suco verde detox,"Couve, limão, gengibre, maçã e hortelã, 500ml",15.53,24,True,4.6
+79,Fit Bowl,Saudável,Salada caesar com frango,"Alface americana, frango grelhado, croutons e parmesão com molho caesar",32.07,19,False,4.5
+80,Fit Bowl,Saudável,Bowl de quinoa com legumes,"Quinoa, grão-de-bico, abacate, tomate cereja e molho de limão",37.79,19,True,4.5
+81,Fit Bowl,Saudável,Wrap integral de frango,"Tortilla integral com frango desfiado, folhas verdes e homus",29.03,19,False,4.5
+82,Fit Bowl,Saudável,Salmão grelhado com legumes,"Filé de salmão com brócolis, cenoura e purê de batata-doce",51.79,19,False,4.5
+83,Fit Bowl,Saudável,Açaí com granola,"Açaí batido com banana, granola e mel, 500ml",24.82,19,True,4.5
+84,Fit Bowl,Saudável,Suco verde detox,"Couve, limão, gengibre, maçã e hortelã, 500ml",13.45,19,True,4.5
+85,Natural & Cia,Saudável,Salada caesar com frango,"Alface americana, frango grelhado, croutons e parmesão com molho caesar",33.47,32,False,4.4
+86,Natural & Cia,Saudável,Bowl de quinoa com legumes,"Quinoa, grão-de-bico, abacate, tomate cereja e molho de limão",38.48,32,True,4.4
+87,Natural & Cia,Saudável,Wrap integral de frango,"Tortilla integral com frango desfiado, folhas verdes e homus",30.74,32,False,4.4
+88,Natural & Cia,Saudável,Salmão grelhado com legumes,"Filé de salmão com brócolis, cenoura e purê de batata-doce",56.05,32,False,4.4
+89,Natural & Cia,Saudável,Açaí com granola,"Açaí batido com banana, granola e mel, 500ml",27.56,32,True,4.4
+90,Natural & Cia,Saudável,Suco verde detox,"Couve, limão, gengibre, maçã e hortelã, 500ml",14.65,32,True,4.4
+91,Nonna Rosa,Italiana,Espaguete à carbonara,"Espaguete com bacon crocante, gema de ovo, parmesão e pimenta-do-reino",52.98,39,False,4.8
+92,Nonna Rosa,Italiana,Lasanha à bolonhesa,"Camadas de massa, molho de carne, molho branco e queijo gratinado",50.04,39,False,4.8
+93,Nonna Rosa,Italiana,Fettuccine alfredo,Fettuccine em molho cremoso de manteiga e parmesão,43.75,39,True,4.8
+94,Nonna Rosa,Italiana,Ravioli de queijo ao sugo,Ravioli recheado de ricota e muçarela com molho de tomate fresco,50.54,39,True,4.8
+95,Nonna Rosa,Italiana,Risoto de cogumelos,Arroz arbóreo cremoso com mix de cogumelos e parmesão,56.2,39,True,4.8
+96,Nonna Rosa,Italiana,Tiramisù,"Sobremesa italiana de café, mascarpone e cacau",27.7,39,True,4.8
+97,Trattoria Bella,Italiana,Espaguete à carbonara,"Espaguete com bacon crocante, gema de ovo, parmesão e pimenta-do-reino",54.22,44,False,4.6
+98,Trattoria Bella,Italiana,Lasanha à bolonhesa,"Camadas de massa, molho de carne, molho branco e queijo gratinado",49.59,44,False,4.6
+99,Trattoria Bella,Italiana,Fettuccine alfredo,Fettuccine em molho cremoso de manteiga e parmesão,47.01,44,True,4.6
+100,Trattoria Bella,Italiana,Ravioli de queijo ao sugo,Ravioli recheado de ricota e muçarela com molho de tomate fresco,49.84,44,True,4.6
+101,Trattoria Bella,Italiana,Risoto de cogumelos,Arroz arbóreo cremoso com mix de cogumelos e parmesão,54.74,44,True,4.6
+102,Trattoria Bella,Italiana,Tiramisù,"Sobremesa italiana de café, mascarpone e cacau",29.44,44,True,4.6
+103,Massa Express,Italiana,Espaguete à carbonara,"Espaguete com bacon crocante, gema de ovo, parmesão e pimenta-do-reino",40.81,32,False,4.2
+104,Massa Express,Italiana,Lasanha à bolonhesa,"Camadas de massa, molho de carne, molho branco e queijo gratinado",39.9,32,False,4.2
+105,Massa Express,Italiana,Fettuccine alfredo,Fettuccine em molho cremoso de manteiga e parmesão,36.78,32,True,4.2
+106,Massa Express,Italiana,Ravioli de queijo ao sugo,Ravioli recheado de ricota e muçarela com molho de tomate fresco,42.54,32,True,4.2
+107,Massa Express,Italiana,Risoto de cogumelos,Arroz arbóreo cremoso com mix de cogumelos e parmesão,47.29,32,True,4.2
+108,Massa Express,Italiana,Tiramisù,"Sobremesa italiana de café, mascarpone e cacau",22.34,32,True,4.2
+109,Doce Encanto,Doces,Brigadeiro gourmet (caixa com 6),"Brigadeiros de chocolate belga, ninho e pistache",24.02,27,True,4.7
+110,Doce Encanto,Doces,Bolo de cenoura com chocolate,Fatia generosa de bolo de cenoura com cobertura de chocolate,13.58,27,True,4.7
+111,Doce Encanto,Doces,Cheesecake de frutas vermelhas,Torta cremosa de cream cheese com calda de frutas vermelhas,21.72,27,True,4.7
+112,Doce Encanto,Doces,Churros recheado com doce de leite,Churros crocantes por fora e recheados com doce de leite,17.39,27,True,4.7
+113,Doce Encanto,Doces,Brownie com sorvete,Brownie quente de chocolate com bola de sorvete de creme,25.09,27,True,4.7
+114,Doce Encanto,Doces,Torta de limão,"Massa crocante, creme de limão e merengue maçaricado",16.68,27,True,4.7
+115,Confeitaria Aurora,Doces,Brigadeiro gourmet (caixa com 6),"Brigadeiros de chocolate belga, ninho e pistache",26.66,27,True,4.5
+116,Confeitaria Aurora,Doces,Bolo de cenoura com chocolate,Fatia generosa de bolo de cenoura com cobertura de chocolate,15.38,27,True,4.5
+117,Confeitaria Aurora,Doces,Cheesecake de frutas vermelhas,Torta cremosa de cream cheese com calda de frutas vermelhas,23.26,27,True,4.5
+118,Confeitaria Aurora,Doces,Churros recheado com doce de leite,Churros crocantes por fora e recheados com doce de leite,19.53,27,True,4.5
+119,Confeitaria Aurora,Doces,Brownie com sorvete,Brownie quente de chocolate com bola de sorvete de creme,27.68,27,True,4.5
+120,Confeitaria Aurora,Doces,Torta de limão,"Massa crocante, creme de limão e merengue maçaricado",18.14,27,True,4.5
+121,Sweet Box,Doces,Brigadeiro gourmet (caixa com 6),"Brigadeiros de chocolate belga, ninho e pistache",21.79,18,True,4.3
+122,Sweet Box,Doces,Bolo de cenoura com chocolate,Fatia generosa de bolo de cenoura com cobertura de chocolate,13.8,18,True,4.3
+123,Sweet Box,Doces,Cheesecake de frutas vermelhas,Torta cremosa de cream cheese com calda de frutas vermelhas,21.83,18,True,4.3
+124,Sweet Box,Doces,Churros recheado com doce de leite,Churros crocantes por fora e recheados com doce de leite,16.39,18,True,4.3
+125,Sweet Box,Doces,Brownie com sorvete,Brownie quente de chocolate com bola de sorvete de creme,22.77,18,True,4.3
+126,Sweet Box,Doces,Torta de limão,"Massa crocante, creme de limão e merengue maçaricado",14.55,18,True,4.3
+127,El Taco Loco,Mexicana,Tacos de carne (3 unidades),"Tortilhas de milho com carne moída temperada, cebola, coentro e limão",36.12,33,False,4.5
+128,El Taco Loco,Mexicana,Burrito de frango,"Tortilla de trigo com frango, arroz, feijão, queijo e molho picante",31.77,33,False,4.5
+129,El Taco Loco,Mexicana,Nachos com guacamole e queijo,"Tortilhas crocantes com queijo derretido, guacamole e pico de gallo",30.48,33,True,4.5
+130,El Taco Loco,Mexicana,Quesadilla de queijo e cogumelos,Tortilla grelhada recheada com queijo e cogumelos salteados,29.25,33,True,4.5
+131,El Taco Loco,Mexicana,Chili con carne,"Ensopado de carne com feijão e pimenta, servido com arroz",36.73,33,False,4.5
+132,El Taco Loco,Mexicana,Guacamole com chips,"Abacate amassado com tomate, cebola e limão, com chips de milho",22.06,33,True,4.5
+133,Casa Mexicana,Mexicana,Tacos de carne (3 unidades),"Tortilhas de milho com carne moída temperada, cebola, coentro e limão",39.3,36,False,4.6
+134,Casa Mexicana,Mexicana,Burrito de frango,"Tortilla de trigo com frango, arroz, feijão, queijo e molho picante",35.25,36,False,4.6
+135,Casa Mexicana,Mexicana,Nachos com guacamole e queijo,"Tortilhas crocantes com queijo derretido, guacamole e pico de gallo",33.13,36,True,4.6
+136,Casa Mexicana,Mexicana,Quesadilla de queijo e cogumelos,Tortilla grelhada recheada com queijo e cogumelos salteados,31.51,36,True,4.6
+137,Casa Mexicana,Mexicana,Chili con carne,"Ensopado de carne com feijão e pimenta, servido com arroz",40.55,36,False,4.6
+138,Casa Mexicana,Mexicana,Guacamole com chips,"Abacate amassado com tomate, cebola e limão, com chips de milho",23.74,36,True,4.6
+139,Burrito Rápido,Mexicana,Tacos de carne (3 unidades),"Tortilhas de milho com carne moída temperada, cebola, coentro e limão",32.89,22,False,4.2
+140,Burrito Rápido,Mexicana,Burrito de frango,"Tortilla de trigo com frango, arroz, feijão, queijo e molho picante",29.52,22,False,4.2
+141,Burrito Rápido,Mexicana,Nachos com guacamole e queijo,"Tortilhas crocantes com queijo derretido, guacamole e pico de gallo",27.05,22,True,4.2
+142,Burrito Rápido,Mexicana,Quesadilla de queijo e cogumelos,Tortilla grelhada recheada com queijo e cogumelos salteados,24.24,22,True,4.2
+143,Burrito Rápido,Mexicana,Chili con carne,"Ensopado de carne com feijão e pimenta, servido com arroz",33.26,22,False,4.2
+144,Burrito Rápido,Mexicana,Guacamole com chips,"Abacate amassado com tomate, cebola e limão, com chips de milho",19.48,22,True,4.2
