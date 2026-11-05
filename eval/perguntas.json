@@ -1,0 +1,19 @@
+[
+  {"pergunta": "algo leve e saudável", "esperados": ["Bowl de quinoa", "Suco verde", "Salada caesar", "Wrap integral", "Açaí", "Salmão grelhado"]},
+  {"pergunta": "algo leve e saldavel", "esperados": ["Bowl de quinoa", "Suco verde", "Salada caesar", "Wrap integral", "Açaí", "Salmão grelhado"], "obs": "erro de digitação de propósito"},
+  {"pergunta": "uma comida quente e reconfortante", "esperados": ["Feijoada", "Strogonoff", "Lasanha", "Chili", "Escondidinho", "Risoto", "Moqueca"]},
+  {"pergunta": "quero uma sobremesa", "esperados": ["Tiramisù", "Brownie", "Torta de limão", "Cheesecake", "Churros", "Brigadeiro", "Bolo de cenoura"]},
+  {"pergunta": "quero sushi", "esperados": ["sushi", "Temaki", "Hot roll", "Uramaki"]},
+  {"pergunta": "quero pizza", "esperados": ["Pizza"]},
+  {"pergunta": "comida mexicana", "esperados": ["Tacos", "Burrito", "Nachos", "Quesadilla", "Chili", "Guacamole"]},
+  {"pergunta": "uma massa italiana", "esperados": ["Espaguete", "Lasanha", "Fettuccine", "Ravioli", "Risoto"]},
+  {"pergunta": "um hambúrguer barato", "esperados": ["burger"], "preco_max": 35},
+  {"pergunta": "algo doce e barato", "esperados": ["Bolo de cenoura", "Churros", "Torta de limão"], "preco_max": 20},
+  {"pergunta": "uma refeição saudável", "esperados": ["Bowl de quinoa", "Suco verde", "Açaí"], "preco_max": 40, "vegetariano": true},
+  {"pergunta": "uma opção vegetariana barata", "preco_max": 25, "vegetariano": true},
+  {"pergunta": "algo para o jantar", "vegetariano": true},
+  {"pergunta": "um almoço rápido", "tempo_max": 20},
+  {"pergunta": "quero camarão", "deve_recusar": true},
+  {"pergunta": "quero um prato com picanha", "deve_recusar": true},
+  {"pergunta": "quero lagosta", "deve_recusar": true}
+]
