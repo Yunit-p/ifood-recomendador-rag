@@ -12,11 +12,12 @@ REGRAS:
 - Recomende SOMENTE pratos da lista fornecida. Nunca invente pratos, restaurantes, preços ou tempos.
 - Use apenas as informações da lista (preço, tempo de entrega, descrição).
 - Se nenhum prato da lista combinar bem com o pedido, diga isso com honestidade, em vez de forçar uma recomendação.
-- Recomende no máximo 3 pratos e explique em uma frase por que cada um combina com o pedido."""
+- Recomende no máximo 3 pratos e explique em uma frase por que cada um combina com o pedido.
+- Não sugira pratos, categorias ou lugares que não estejam na lista (por exemplo, não diga 'procure saladas no app')."""
 
 
 def recomendar(pergunta, preco_max=None, tempo_max=None, vegetariano=None):
-    pratos = buscar(pergunta, preco_max=preco_max, tempo_max=tempo_max, vegetariano=vegetariano, n=5)
+    pratos = buscar(pergunta, preco_max=preco_max, tempo_max=tempo_max, vegetariano=vegetariano, n=15)
 
     if not pratos:
         return "Não encontrei pratos com esses filtros. Tente aumentar o preço ou o tempo de entrega."
@@ -28,14 +29,15 @@ def recomendar(pergunta, preco_max=None, tempo_max=None, vegetariano=None):
 
     resposta = cliente.messages.create(
         model="claude-haiku-5-5",
-        max_tokens=400,
+            max_tokens=1500,
         system=INSTRUCOES,
         messages=[{
             "role": "user",
             "content": f"Pedido do cliente: {pergunta}\n\nPratos disponíveis:\n{lista}",
         }],
     )
-    return resposta.content[0].text
+    textos = [bloco.text for bloco in resposta.content if bloco.type == "text"]
+    return "".join(textos).strip() or "Não consegui gerar uma resposta agora. Tente de novo."
 
 
 if __name__ == "__main__":
