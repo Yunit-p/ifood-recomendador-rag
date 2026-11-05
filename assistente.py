@@ -15,10 +15,24 @@ REGRAS:
 - Recomende no máximo 3 pratos e explique em uma frase por que cada um combina com o pedido.
 - Não sugira pratos, categorias ou lugares que não estejam na lista (por exemplo, não diga 'procure saladas no app')."""
 
+def corrigir_pergunta(pergunta):
+    resposta = cliente.messages.create(
+        model="claude-haiku-5-5",
+        max_tokens=500,
+        system=(
+            "Você corrige erros de digitação em pedidos de comida em português. "
+            "Devolva APENAS o pedido corrigido, sem explicações e sem acrescentar nada. "
+            "Se já estiver correto, devolva igual."
+        ),
+        messages=[{"role": "user", "content": pergunta}],
+    )
+    textos = [bloco.text for bloco in resposta.content if bloco.type == "text"]
+    corrigida = "".join(textos).strip().strip('"')
+    return corrigida or pergunta
 
 def recomendar(pergunta, preco_max=None, tempo_max=None, vegetariano=None):
+    pergunta = corrigir_pergunta(pergunta)
     pratos = buscar(pergunta, preco_max=preco_max, tempo_max=tempo_max, vegetariano=vegetariano, n=15)
-
     if not pratos:
         return "Não encontrei pratos com esses filtros. Tente aumentar o preço ou o tempo de entrega."
 
