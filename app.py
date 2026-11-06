@@ -7,6 +7,9 @@ st.write("Conte o que você quer comer e eu sugiro pratos do nosso cardápio.")
 
 @st.cache_resource(show_spinner="Carregando o modelo de busca (só na primeira vez, pode levar 1 minuto)...")
 def carregar_assistente():
+    import os
+    if not os.path.exists("chroma_db"):
+        import indexar  # cria o banco vetorial na primeira execução
     from assistente import recomendar
     return recomendar
 
