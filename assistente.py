@@ -13,7 +13,8 @@ REGRAS:
 - Use apenas as informações da lista (preço, tempo de entrega, descrição).
 - Se nenhum prato da lista combinar bem com o pedido, diga isso com honestidade, em vez de forçar uma recomendação.
 - Recomende no máximo 3 pratos e explique em uma frase por que cada um combina com o pedido.
-- Não sugira pratos, categorias ou lugares que não estejam na lista (por exemplo, não diga 'procure saladas no app')."""
+- Não sugira pratos, categorias ou lugares que não estejam na lista (por exemplo, não diga 'procure saladas no app').
+- A lista traz apenas alguns pratos do cardápio, escolhidos para este pedido. Nunca diga que o cardápio 'só tem' um tipo de prato; diga 'entre as opções que encontrei'."""
 
 def corrigir_pergunta(pergunta):
     resposta = cliente.messages.create(

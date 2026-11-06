@@ -4,6 +4,29 @@ from sentence_transformers import SentenceTransformer
 
 df = pd.read_csv("data/pratos.csv")
 
+SAUDAVEIS = {
+    "Combinado de sushi 20 peças", "Temaki de salmão", "Uramaki vegetariano",
+    "Yakisoba de legumes", "Salada caesar com frango", "Bowl de quinoa com legumes",
+    "Wrap integral de frango", "Salmão grelhado com legumes", "Açaí com granola",
+    "Suco verde detox", "Pizza margherita", "Guacamole com chips",
+}
+PESADOS = {
+    "Feijoada completa", "Strogonoff de carne", "Lasanha à bolonhesa",
+    "Espaguete à carbonara", "Burger bacon duplo", "Batata frita com cheddar e bacon",
+    "Chili con carne", "Virado à paulista", "Pizza quatro queijos",
+}
+SOBREMESAS = {"Tiramisù", "Milkshake de chocolate", "Pizza doce de chocolate com morango"}
+
+
+def perfil(linha):
+    if linha["prato"] in SAUDAVEIS:
+        return "Perfil: leve, saudável, fresco, nutritivo."
+    if linha["prato"] in PESADOS:
+        return "Perfil: refeição farta, substanciosa, indulgente."
+    if linha["categoria"] == "Doces" or linha["prato"] in SOBREMESAS:
+        return "Perfil: sobremesa, doce, indulgente."
+    return ""
+
 # Modelo que transforma texto em números e entende português
 modelo = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 

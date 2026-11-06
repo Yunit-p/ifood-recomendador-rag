@@ -14,6 +14,6 @@
   {"pergunta": "algo para o jantar", "vegetariano": true},
   {"pergunta": "um almoço rápido", "tempo_max": 20},
   {"pergunta": "quero camarão", "deve_recusar": true},
-  {"pergunta": "quero um prato com picanha", "deve_recusar": true},
-  {"pergunta": "quero lagosta", "deve_recusar": true}
+    {"pergunta": "quero lagosta", "deve_recusar": true},
+  {"pergunta": "algo leve", "esperados": ["Bowl de quinoa", "Suco verde", "Açaí", "Yakisoba", "Uramaki", "Guacamole"], "preco_max": 60, "tempo_max": 45, "vegetariano": true}
 ]

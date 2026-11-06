@@ -1,0 +1,146 @@
+[
+  {
+    "pergunta": "algo leve e saudável",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true
+    },
+    "resposta": "Que pedido gostoso! Aqui vão três opções leves e saudáveis:\n\n1. **Suco verde detox** (Fit Bowl): R$ 13,45, entrega em 19 min. Combina por ser leve, refrescante e feito com couve, limão e gengibre.\n2. **Bowl de quinoa com legumes** (Fit Bowl): R$ 37,79, entrega em 19 min. Tem quinoa, grão-de-bico e abacate, então é nutritivo sem pesar.\n3. **Salmão grelhado com legumes** (Natural & Cia): R$ 56,05, entrega em 32 min. É uma refeição leve e rica em proteína, com brócolis, cenoura e purê de batata-doce."
+  },
+  {
+    "pergunta": "algo leve e saldavel",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true
+    },
+    "resposta": "Que pedido gostoso! Estes pratos combinam com algo leve e saudável:\n\n1. **Suco verde detox** (Fit Bowl), R$ 13,45, 19 min. Couve, limão, gengibre, maçã e hortelã, uma opção refrescante e bem leve.\n2. **Bowl de quinoa com legumes** (Fit Bowl), R$ 37,79, 19 min. Quinoa, grão-de-bico, abacate e tomate cereja, uma refeição completa e equilibrada.\n3. **Salmão grelhado com legumes** (Natural & Cia), R$ 56,05, 32 min. Filé de salmão com brócolis, cenoura e purê de batata-doce, uma opção nutritiva para quem quer algo mais substancioso."
+  },
+  {
+    "pergunta": "uma comida quente e reconfortante",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true
+    },
+    "resposta": "Para algo quente e reconfortante, eu indicaria:\n\n1. **Feijoada completa** (Cozinha da Vovó): R$ 40,01, entrega em 30 min. Feijão preto com carnes suínas, arroz e farofa é o clássico para aquecer.\n2. **Chili con carne** (Burrito Rápido): R$ 33,26, entrega em 22 min. Ensopado de carne com feijão e pimenta, servido com arroz, bem quentinho.\n3. **Strogonoff de carne** (Tempero Mineiro): R$ 34,53, entrega em 36 min. Carne em molho cremoso com arroz e batata palha, muito acolhedor."
+  },
+  {
+    "pergunta": "quero uma sobremesa",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true
+    },
+    "resposta": "Ótima escolha! Aqui vão três sobremesas que combinam com você:\n\n1. **Torta de limão** (Sweet Box): R$ 14,55, entrega em 18 min. É a opção mais leve e econômica, com massa crocante, creme de limão e merengue.\n2. **Brownie com sorvete** (Sweet Box): R$ 22,77, entrega em 18 min. Brownie quente de chocolate com uma bola de sorvete de creme, para quem quer algo bem quentinho e cremoso.\n3. **Cheesecake de frutas vermelhas** (Sweet Box): R$ 21,83, entrega em 18 min. Torta cremosa de cream cheese com calda de frutas vermelhas, para quem gosta de um sabor mais refrescante."
+  },
+  {
+    "pergunta": "quero sushi",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true
+    },
+    "resposta": "Tenho boas opções de sushi para você! 🍣\n\n- **Combinado de sushi 20 peças (Tokyo Box)**: R$ 59,44, entrega em 31 min. É o mais rápido e econômico, com salmão, atum e peixe branco.\n- **Combinado de sushi 20 peças (Sakura Express)**: R$ 68,53, entrega em 37 min. Traz os mesmos sabores, se preferir este restaurante.\n- **Temaki de salmão (Mar & Sushi)**: R$ 35,70, entrega em 43 min. É uma opção menor, com salmão fresco, cream cheese e cebolinha."
+  },
+  {
+    "pergunta": "quero pizza",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true
+    },
+    "resposta": "Que delícia! Aqui vão três opções de pizza que combinam com você:\n\n1. **Pizza margherita** (Pizzaria Dona Maria): R$ 48,81, entrega em 32 min. Clássica e leve, com muçarela de búfala e manjericão fresco.\n2. **Pizza quatro queijos** (Pizzaria Dona Maria): R$ 54,24, entrega em 32 min. Para quem ama queijo, com muçarela, provolone, gorgonzola e parmesão.\n3. **Pizza calabresa** (Pizzaria Dona Maria): R$ 50,58, entrega em 32 min. Saborosa e tradicional, com calabresa, cebola roxa e azeitonas."
+  },
+  {
+    "pergunta": "comida mexicana",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true
+    },
+    "resposta": "Que delícia! Estas opções da cozinha mexicana estão disponíveis:\n\n1. **Tacos de carne (3 unidades)**, Burrito Rápido: R$ 32,89, entrega em 22 min. Tortilhas de milho com carne temperada, cebola, coentro e limão, um clássico da culinária mexicana.\n2. **Burrito de frango**, El Taco Loco: R$ 31,77, entrega em 33 min. Tortilha de trigo com frango, arroz, feijão, queijo e molho picante, bem completo.\n3. **Quesadilla de queijo e cogumelos**, Burrito Rápido: R$ 24,24, entrega em 22 min. Tortilla grelhada com queijo e cogumelos salteados, uma opção leve e mais em conta."
+  },
+  {
+    "pergunta": "uma massa italiana",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true
+    },
+    "resposta": "Para uma massa italiana, tenho três opções do **Massa Express**, com entrega em 32 min:\n\n1. **Fettuccine alfredo** (R$ 36.78): massa em molho cremoso de manteiga e parmesão, ideal se você quer algo cremoso e reconfortante.\n2. **Lasanha à bolonhesa** (R$ 39.90): camadas de massa, molho de carne e queijo gratinado, para quem quer algo mais farto.\n3. **Ravioli de queijo ao sugo** (R$ 42.54): ravioli de ricota e muçarela com molho de tomate fresco, uma opção mais leve e com sabor de tomate.\n\nQual delas combina mais com você?"
+  },
+  {
+    "pergunta": "um hambúrguer barato",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true,
+      "respeitou_preco": true
+    },
+    "resposta": "Achei algumas opções de hambúrguer com bom preço:\n\n1. **Burger de frango crocante** – Burger do Zé, R$ 28,96, 26 min. É o mais barato da categoria com entrega rápida.\n2. **Burger de frango crocante** – Grill Brasa, R$ 28,71, 34 min. É o menor preço da lista, mas a entrega leva um pouco mais de tempo.\n3. **Cheeseburger clássico** – Burger do Zé, R$ 29,46, 26 min. Traz carne bovina de 150g com cheddar, para quem prefere hambúrguer de carne."
+  },
+  {
+    "pergunta": "algo doce e barato",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true,
+      "respeitou_preco": true
+    },
+    "resposta": "Para algo doce e barato, estas são as melhores opções da lista:\n\n1. **Bolo de cenoura com chocolate – Doce Encanto**, R$ 13,58, 27 min. É o mais barato da lista e a fatia generosa com cobertura de chocolate resolve a vontade de doce.\n2. **Bolo de cenoura com chocolate – Sweet Box**, R$ 13,80, 18 min. Mesmo bolo, chega 9 minutos antes por apenas R$ 0,22 a mais.\n3. **Torta de limão – Sweet Box**, R$ 14,55, 18 min. Massa crocante com creme de limão e merengue, para quem prefere um doce mais refrescante."
+  },
+  {
+    "pergunta": "uma refeição saudável",
+    "ok": true,
+    "checks": {
+      "citou_prato_esperado": true,
+      "respeitou_preco": true,
+      "so_vegetariano": true
+    },
+    "resposta": "Que ótimo pedido! Aqui vão três opções saudáveis e rápidas:\n\n1. **Bowl de quinoa com legumes** (Fit Bowl): R$ 37,79, entrega em 19 min. Combina com uma refeição completa, com quinoa, grão-de-bico, abacate e tomate cereja.\n2. **Suco verde detox** (Fit Bowl): R$ 13,45, entrega em 19 min. Leve e refrescante, com couve, limão, gengibre, maçã e hortelã, para acompanhar ou complementar sua refeição.\n3. **Açaí com granola** (Fit Bowl): R$ 24,82, entrega em 19 min. Uma opção mais leve, com banana, granola e mel, de 500 ml."
+  },
+  {
+    "pergunta": "uma opção vegetariana barata",
+    "ok": true,
+    "checks": {
+      "respeitou_preco": true,
+      "so_vegetariano": true
+    },
+    "resposta": "Oi! Entre os pratos da lista, estes são os mais baratos e, pelos ingredientes, não têm carne:\n\n1. **Suco verde detox (Fit Bowl)**: R$ 13,45, entrega em 19 min. Bebida natural de couve, limão, gengibre, maçã e hortelã, uma opção leve e barata.\n2. **Bolo de cenoura com chocolate (Doce Encanto)**: R$ 13,58, entrega em 27 min. Fatia generosa com cobertura de chocolate, se você quiser algo para comer.\n3. **Bolo de cenoura com chocolate (Sweet Box)**: R$ 13,80, entrega em 18 min. A mesma opção de bolo, com a entrega mais rápida.\n\nOs ingredientes listados não incluem carne, mas a lista não traz a informação \"vegetariano\" de forma explícita, então vale conferir com o restaurante se precisar."
+  },
+  {
+    "pergunta": "algo para o jantar",
+    "ok": true,
+    "checks": {
+      "so_vegetariano": true
+    },
+    "resposta": "Para o jantar, estas opções da lista combinam bem:\n\n- **Quesadilla de queijo e cogumelos** (Casa Mexicana, R$ 31,51, 36 min): uma refeição mais completa, com tortilla grelhada, queijo e cogumelos salteados.\n- **Nachos com guacamole e queijo** (Burrito Rápido, R$ 27,05, 22 min): são crocantes, saem mais rápido e funcionam bem para dividir.\n- **Bowl de quinoa com legumes** (Fit Bowl, R$ 37,79, 19 min): é uma opção mais leve, com quinoa, grão-de-bico, abacate e tomate cereja."
+  },
+  {
+    "pergunta": "um almoço rápido",
+    "ok": true,
+    "checks": {
+      "respeitou_tempo": true
+    },
+    "resposta": "Para um almoço rápido, estas opções têm entrega em cerca de 19 minutos:\n\n1. **Wrap integral de frango** (Fit Bowl, R$ 29,03, 19 min): prático de comer e leve, com frango desfiado, folhas verdes e homus.\n2. **Salada caesar com frango** (Fit Bowl, R$ 32,07, 19 min): alface, frango grelhado, croutons e parmesão, uma refeição completa e rápida.\n3. **Bowl de quinoa com legumes** (Fit Bowl, R$ 37,79, 19 min): quinoa, grão-de-bico, abacate e tomate cereja, para quem quer algo mais substancioso."
+  },
+  {
+    "pergunta": "quero camarão",
+    "ok": true,
+    "checks": {
+      "recusou_corretamente": true
+    },
+    "resposta": "Oi! Infelizmente não encontrei nenhum prato com camarão nos pratos disponíveis agora, então não consigo recomendar um que combine com o seu pedido.\n\nSe quiser, posso sugerir outra opção da lista, como a Espaguete à carbonara ou a Lasanha à bolonhesa."
+  },
+  {
+    "pergunta": "quero lagosta",
+    "ok": true,
+    "checks": {
+      "recusou_corretamente": true
+    },
+    "resposta": "Oi! Infelizmente não encontrei lagosta na lista de pratos disponíveis agora, então não consigo recomendar nada que combine bem com esse pedido.\n\nSe quiser algo do mar, temos a **Moqueca de peixe**, que leva peixe cozido em leite de coco, dendê e pimentões. Ela não é lagosta, mas é uma opção saborosa de frutos do mar... ou melhor, de peixe, já que a lista não tem crustáceos."
+  },
+  {
+    "pergunta": "algo leve",
+    "ok": false,
+    "checks": {
+      "citou_prato_esperado": false,
+      "respeitou_preco": true,
+      "respeitou_tempo": true,
+      "so_vegetariano": true
+    },
+    "resposta": "Não encontrei nada que seja claramente leve na lista. As opções são quase todas doces mais pesados ou um risoto. Se quiser algo mais suave, estas são as mais próximas:\n\n- **Torta de limão (Sweet Box)**: R$ 14,55, entrega em 18 min. Tem massa crocante, creme de limão e merengue, então é uma sobremesa mais leve que as outras.\n- **Bolo de cenoura com chocolate (Sweet Box)**: R$ 13,80, entrega em 18 min. Uma fatia simples e mais leve que os doces com sorvete ou recheio."
+  }
+]
