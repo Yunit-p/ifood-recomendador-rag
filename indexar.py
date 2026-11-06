@@ -27,6 +27,7 @@ def perfil(linha):
         return "Perfil: sobremesa, doce, indulgente."
     return ""
 
+
 # Modelo que transforma texto em números e entende português
 modelo = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 
@@ -35,6 +36,7 @@ textos = (
     df["prato"] + ". " + df["descricao"]
     + " Restaurante: " + df["restaurante"]
     + ". Categoria: " + df["categoria"]
+    + ". " + df.apply(perfil, axis=1)
 ).tolist()
 embeddings = modelo.encode(textos, show_progress_bar=True).tolist()
 
